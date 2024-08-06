@@ -1,0 +1,23 @@
+@media screen and (max-width: 991px) {
+  .dashboardWrapper .sidebar {
+    left: -250px;
+    transition: all 0.3s linear;
+  }
+
+  .dashboardWrapper .sidebar.open {
+    left: 0;
+  }
+
+  .dashboardWrapper .rightWrapper {
+    width: 100%;
+    margin-left: unset;
+  }
+
+  .sidebarToggle {
+    display: block;
+  }
+
+  .header .headerLogo {
+    display: block;
+  }
+}

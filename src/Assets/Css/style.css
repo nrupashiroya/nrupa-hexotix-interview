@@ -1,0 +1,141 @@
+.authFormDiv {
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+  border: 1px solid #dee2e6;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.authFormDiv .error {
+  color: red;
+  font-size: 14px;
+}
+
+.authFormDiv .authBtn.btn {
+  background: #55d8f7;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.authFormDiv a {
+  color: #55d8f7;
+  text-transform: uppercase;
+}
+
+.dashboardWrapper {
+  display: flex;
+}
+
+.dashboardWrapper .sidebar {
+  width: 250px;
+  padding: 15px;
+  background: #f3f3f3;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  z-index: 99;
+}
+
+.dashboardWrapper .rightWrapper {
+  width: calc(100% - 250px);
+  margin-left: auto;
+  min-height: 100vh;
+}
+
+.sidebarLinks a {
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.sidebarLinks a.active {
+  background: #ccc;
+}
+
+.sidebarLinks a:hover {
+  background: #dfdfdf;
+}
+
+.sidebar .logoutBtn {
+  background: #55d8f7;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.rightWrapper .header {
+  padding: 20px;
+  box-shadow: 0 2px 5px #dfdfdf;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 10px;
+}
+
+.sidebarToggle {
+  background: transparent !important;
+  border: 1px solid #55d8f7;
+  color: #838383 !important;
+  padding: 3px 10px;
+  font-size: 20px;
+  display: none;
+}
+
+.sidebar .sidebarToggle {
+  position: absolute;
+  left: 15px;
+}
+
+.header .headerLogo {
+  display: none;
+}
+
+.header .userImg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.rightWrapper .outletWrapper {
+  padding: 30px;
+}
+
+.dashTable {
+  text-align: center;
+}
+
+.dashTable thead th {
+  background: #55d8f7;
+  color: white;
+}
+
+.dashTable th:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+.dashTable th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+.dashTable tbody td {
+  background: #f3f3f3;
+}
+
+.noDataP {
+  background: #f3f3f3;
+  text-align: center;
+  padding: 10px;
+}
